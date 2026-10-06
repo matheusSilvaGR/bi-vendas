@@ -1,0 +1,13 @@
+id_produto,nome,categoria,custo_unit,preco_unit
+1,Fone Bluetooth,Eletrônicos,80.0,159.0
+2,Smartwatch,Eletrônicos,220.0,449.0
+3,Carregador Rápido,Eletrônicos,25.0,69.0
+4,Cafeteira,Casa,90.0,189.0
+5,Liquidificador,Casa,70.0,149.0
+6,Jogo de Panelas,Casa,130.0,279.0
+7,Tênis Esportivo,Moda,110.0,259.0
+8,Mochila,Moda,60.0,139.0
+9,Jaqueta,Moda,120.0,299.0
+10,Bicicleta Ergométrica,Esporte,600.0,1199.0
+11,Kit Halteres,Esporte,90.0,199.0
+12,Tapete de Yoga,Esporte,30.0,79.0

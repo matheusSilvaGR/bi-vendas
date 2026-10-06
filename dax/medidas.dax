@@ -1,0 +1,64 @@
+// ===== Medidas base - modelo estrela =====
+// Fato: fato_vendas | Dimensões: dim_cliente, dim_produto, dim_loja, dim_meta | Datas: Calendario
+Receita = SUM ( fato_vendas[valor_liquido] )
+
+Custo =
+SUMX (
+    fato_vendas,
+    fato_vendas[quantidade] * RELATED ( dim_produto[custo_unit] )
+)
+
+Lucro = [Receita] - [Custo]
+
+Margem % = DIVIDE ( [Lucro], [Receita] )
+
+Qtd Vendas = DISTINCTCOUNT ( fato_vendas[id_venda] )
+
+Itens Vendidos = SUM ( fato_vendas[quantidade] )
+
+Ticket Médio = DIVIDE ( [Receita], [Qtd Vendas] )
+
+Clientes Ativos = DISTINCTCOUNT ( fato_vendas[id_cliente] )
+
+// ===== Time intelligence =====
+Receita YTD = TOTALYTD ( [Receita], Calendario[Data] )
+
+Receita Ano Anterior =
+CALCULATE ( [Receita], SAMEPERIODLASTYEAR ( Calendario[Data] ) )
+
+Crescimento YoY % =
+DIVIDE ( [Receita] - [Receita Ano Anterior], [Receita Ano Anterior] )
+
+Receita Mês Anterior =
+CALCULATE ( [Receita], DATEADD ( Calendario[Data], -1, MONTH ) )
+
+Variação MoM % =
+DIVIDE ( [Receita] - [Receita Mês Anterior], [Receita Mês Anterior] )
+
+Média Móvel 3M =
+AVERAGEX (
+    DATESINPERIOD ( Calendario[Data], MAX ( Calendario[Data] ), -3, MONTH ),
+    [Receita]
+)
+
+// ===== Participação e ranking =====
+% do Total =
+DIVIDE ( [Receita], CALCULATE ( [Receita], REMOVEFILTERS ( dim_produto ) ) )
+
+% da Categoria =
+DIVIDE (
+    [Receita],
+    CALCULATE ( [Receita], REMOVEFILTERS ( dim_produto[nome] ) )
+)
+
+Ranking Produto =
+RANKX ( ALL ( dim_produto[nome] ), [Receita], , DESC, DENSE )
+
+// ===== Metas dinâmicas =====
+Meta Receita = SUM ( dim_meta[meta_receita] )
+
+Atingimento da Meta % = DIVIDE ( [Receita], [Meta Receita] )
+
+Desvio da Meta = [Receita] - [Meta Receita]
+
+Cor Variação = IF ( [Crescimento YoY %] >= 0, "#2E7D32", "#C62828" )

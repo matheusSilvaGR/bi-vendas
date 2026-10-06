@@ -1,0 +1,201 @@
+id_cliente,nome,segmento,cidade,estado
+1,Ana Lima 001,Varejo,Rio de Janeiro,RJ
+2,Elisa Souza 002,Premium,Curitiba,PR
+3,Nicolas Silva 003,Varejo,Rio de Janeiro,RJ
+4,Gabriela Santos 004,Premium,Rio de Janeiro,RJ
+5,Gabriela Costa 005,Varejo,São Paulo,SP
+6,Isabela Silva 006,Varejo,Brasília,DF
+7,Karen Lima 007,Varejo,Recife,PE
+8,Karen Souza 008,Varejo,Curitiba,PR
+9,Diego Pereira 009,Varejo,Recife,PE
+10,Bruno Ribeiro 010,Premium,Porto Alegre,RS
+11,Marina Souza 011,Premium,Rio de Janeiro,RJ
+12,Lucas Santos 012,Varejo,Porto Alegre,RS
+13,Hugo Lima 013,Varejo,São Paulo,SP
+14,Diego Costa 014,Varejo,Curitiba,PR
+15,Lucas Oliveira 015,Varejo,Brasília,DF
+16,Gabriela Lima 016,Varejo,Salvador,BA
+17,Hugo Oliveira 017,Corporativo,Belo Horizonte,MG
+18,Isabela Santos 018,Varejo,Recife,PE
+19,Hugo Silva 019,Varejo,São Paulo,SP
+20,Isabela Souza 020,Varejo,Recife,PE
+21,Gabriela Ribeiro 021,Corporativo,Salvador,BA
+22,Elisa Lima 022,Varejo,Brasília,DF
+23,Isabela Costa 023,Premium,Curitiba,PR
+24,Lucas Santos 024,Varejo,Recife,PE
+25,Paulo Souza 025,Varejo,Manaus,AM
+26,Elisa Oliveira 026,Corporativo,Rio de Janeiro,RJ
+27,Marina Costa 027,Premium,Rio de Janeiro,RJ
+28,Isabela Silva 028,Varejo,Brasília,DF
+29,Isabela Pereira 029,Varejo,Manaus,AM
+30,Nicolas Oliveira 030,Corporativo,Porto Alegre,RS
+31,Isabela Oliveira 031,Premium,São Paulo,SP
+32,João Santos 032,Varejo,Rio de Janeiro,RJ
+33,Fábio Silva 033,Premium,Salvador,BA
+34,Paulo Silva 034,Varejo,Salvador,BA
+35,João Santos 035,Varejo,Salvador,BA
+36,Carla Souza 036,Corporativo,Curitiba,PR
+37,Elisa Oliveira 037,Corporativo,Rio de Janeiro,RJ
+38,Fábio Lima 038,Premium,Manaus,AM
+39,Gabriela Santos 039,Varejo,Recife,PE
+40,Lucas Ribeiro 040,Premium,Recife,PE
+41,Diego Santos 041,Varejo,Brasília,DF
+42,Karen Silva 042,Premium,Rio de Janeiro,RJ
+43,Hugo Santos 043,Varejo,Manaus,AM
+44,Bruno Santos 044,Varejo,Rio de Janeiro,RJ
+45,Karen Souza 045,Premium,São Paulo,SP
+46,Isabela Ribeiro 046,Varejo,Curitiba,PR
+47,Elisa Ribeiro 047,Varejo,Manaus,AM
+48,Nicolas Santos 048,Varejo,Brasília,DF
+49,Nicolas Pereira 049,Corporativo,Rio de Janeiro,RJ
+50,Olívia Silva 050,Varejo,Recife,PE
+51,Marina Pereira 051,Varejo,São Paulo,SP
+52,Gabriela Santos 052,Premium,Curitiba,PR
+53,Elisa Costa 053,Varejo,Brasília,DF
+54,Olívia Santos 054,Varejo,Porto Alegre,RS
+55,Diego Silva 055,Premium,Brasília,DF
+56,Carla Santos 056,Varejo,São Paulo,SP
+57,Paulo Ribeiro 057,Varejo,Recife,PE
+58,Bruno Oliveira 058,Corporativo,Recife,PE
+59,Marina Lima 059,Corporativo,São Paulo,SP
+60,Nicolas Ribeiro 060,Varejo,Porto Alegre,RS
+61,João Santos 061,Varejo,Curitiba,PR
+62,Bruno Pereira 062,Varejo,Manaus,AM
+63,Paulo Oliveira 063,Varejo,São Paulo,SP
+64,Carla Oliveira 064,Varejo,Manaus,AM
+65,Hugo Costa 065,Varejo,Rio de Janeiro,RJ
+66,Bruno Souza 066,Corporativo,Curitiba,PR
+67,Karen Lima 067,Varejo,Manaus,AM
+68,Hugo Lima 068,Corporativo,Salvador,BA
+69,João Ribeiro 069,Varejo,Belo Horizonte,MG
+70,Ana Ribeiro 070,Premium,Rio de Janeiro,RJ
+71,Carla Santos 071,Premium,Rio de Janeiro,RJ
+72,Elisa Pereira 072,Varejo,Porto Alegre,RS
+73,Lucas Lima 073,Varejo,Curitiba,PR
+74,João Silva 074,Premium,Brasília,DF
+75,Diego Oliveira 075,Varejo,Porto Alegre,RS
+76,Diego Oliveira 076,Varejo,Rio de Janeiro,RJ
+77,Gabriela Pereira 077,Varejo,Porto Alegre,RS
+78,Paulo Lima 078,Varejo,Porto Alegre,RS
+79,Nicolas Lima 079,Varejo,Rio de Janeiro,RJ
+80,Karen Oliveira 080,Varejo,São Paulo,SP
+81,Olívia Costa 081,Premium,Belo Horizonte,MG
+82,Diego Souza 082,Varejo,São Paulo,SP
+83,Bruno Pereira 083,Premium,Manaus,AM
+84,Elisa Costa 084,Varejo,Manaus,AM
+85,João Pereira 085,Varejo,São Paulo,SP
+86,Gabriela Santos 086,Varejo,Salvador,BA
+87,Nicolas Oliveira 087,Varejo,Salvador,BA
+88,Fábio Costa 088,Varejo,Belo Horizonte,MG
+89,Karen Costa 089,Varejo,Belo Horizonte,MG
+90,Fábio Souza 090,Corporativo,Porto Alegre,RS
+91,Paulo Santos 091,Varejo,São Paulo,SP
+92,Lucas Lima 092,Varejo,Brasília,DF
+93,Ana Santos 093,Corporativo,Curitiba,PR
+94,Isabela Souza 094,Varejo,Salvador,BA
+95,Marina Pereira 095,Varejo,Salvador,BA
+96,Isabela Oliveira 096,Premium,Rio de Janeiro,RJ
+97,Bruno Souza 097,Premium,Porto Alegre,RS
+98,Lucas Pereira 098,Corporativo,Recife,PE
+99,Diego Costa 099,Premium,Manaus,AM
+100,Isabela Silva 100,Corporativo,Curitiba,PR
+101,Gabriela Pereira 101,Corporativo,São Paulo,SP
+102,Karen Pereira 102,Varejo,Rio de Janeiro,RJ
+103,João Costa 103,Varejo,Porto Alegre,RS
+104,João Oliveira 104,Varejo,Recife,PE
+105,Marina Oliveira 105,Premium,Recife,PE
+106,Marina Silva 106,Varejo,Porto Alegre,RS
+107,Gabriela Costa 107,Premium,Porto Alegre,RS
+108,Olívia Ribeiro 108,Corporativo,Salvador,BA
+109,Paulo Oliveira 109,Varejo,Curitiba,PR
+110,Karen Souza 110,Varejo,Porto Alegre,RS
+111,Hugo Santos 111,Varejo,Porto Alegre,RS
+112,Bruno Santos 112,Corporativo,São Paulo,SP
+113,Olívia Costa 113,Premium,Rio de Janeiro,RJ
+114,Marina Ribeiro 114,Corporativo,Curitiba,PR
+115,Elisa Silva 115,Varejo,Curitiba,PR
+116,Hugo Oliveira 116,Premium,Recife,PE
+117,Bruno Santos 117,Varejo,Brasília,DF
+118,Elisa Ribeiro 118,Premium,Brasília,DF
+119,Karen Ribeiro 119,Premium,Manaus,AM
+120,Nicolas Ribeiro 120,Varejo,Manaus,AM
+121,Olívia Lima 121,Varejo,Brasília,DF
+122,Paulo Santos 122,Varejo,Porto Alegre,RS
+123,Carla Lima 123,Varejo,Brasília,DF
+124,Karen Pereira 124,Premium,Porto Alegre,RS
+125,Elisa Oliveira 125,Varejo,Rio de Janeiro,RJ
+126,Elisa Santos 126,Varejo,Recife,PE
+127,Nicolas Pereira 127,Premium,Recife,PE
+128,Nicolas Silva 128,Varejo,Brasília,DF
+129,Marina Silva 129,Premium,Recife,PE
+130,Paulo Silva 130,Varejo,Recife,PE
+131,Marina Costa 131,Premium,Porto Alegre,RS
+132,Hugo Ribeiro 132,Varejo,Manaus,AM
+133,Nicolas Ribeiro 133,Varejo,Porto Alegre,RS
+134,Karen Costa 134,Varejo,Recife,PE
+135,Elisa Silva 135,Corporativo,Brasília,DF
+136,Carla Costa 136,Varejo,São Paulo,SP
+137,Fábio Silva 137,Varejo,Brasília,DF
+138,Karen Santos 138,Corporativo,Recife,PE
+139,Karen Costa 139,Varejo,Salvador,BA
+140,Isabela Souza 140,Corporativo,Recife,PE
+141,Bruno Pereira 141,Varejo,São Paulo,SP
+142,Bruno Silva 142,Varejo,Rio de Janeiro,RJ
+143,Ana Oliveira 143,Varejo,Curitiba,PR
+144,Paulo Souza 144,Premium,Belo Horizonte,MG
+145,Olívia Lima 145,Varejo,Curitiba,PR
+146,Diego Oliveira 146,Varejo,Belo Horizonte,MG
+147,Ana Lima 147,Premium,Rio de Janeiro,RJ
+148,Marina Santos 148,Varejo,Recife,PE
+149,Diego Lima 149,Premium,Curitiba,PR
+150,Bruno Pereira 150,Premium,Rio de Janeiro,RJ
+151,Lucas Souza 151,Premium,Recife,PE
+152,Ana Costa 152,Corporativo,Salvador,BA
+153,Nicolas Pereira 153,Corporativo,Rio de Janeiro,RJ
+154,Nicolas Oliveira 154,Premium,Belo Horizonte,MG
+155,Paulo Ribeiro 155,Corporativo,Porto Alegre,RS
+156,Karen Santos 156,Varejo,Porto Alegre,RS
+157,Olívia Santos 157,Corporativo,Porto Alegre,RS
+158,Karen Silva 158,Corporativo,Recife,PE
+159,Fábio Ribeiro 159,Varejo,Salvador,BA
+160,Isabela Pereira 160,Varejo,Salvador,BA
+161,Ana Santos 161,Varejo,Porto Alegre,RS
+162,Nicolas Ribeiro 162,Premium,Curitiba,PR
+163,Paulo Ribeiro 163,Corporativo,Curitiba,PR
+164,Carla Lima 164,Varejo,São Paulo,SP
+165,Hugo Lima 165,Premium,Recife,PE
+166,Paulo Pereira 166,Corporativo,Salvador,BA
+167,Karen Pereira 167,Corporativo,Manaus,AM
+168,João Lima 168,Varejo,Porto Alegre,RS
+169,Gabriela Pereira 169,Varejo,Rio de Janeiro,RJ
+170,Fábio Santos 170,Varejo,Manaus,AM
+171,Isabela Lima 171,Varejo,Brasília,DF
+172,João Santos 172,Varejo,Curitiba,PR
+173,João Silva 173,Premium,Belo Horizonte,MG
+174,Isabela Silva 174,Varejo,Belo Horizonte,MG
+175,João Oliveira 175,Corporativo,Manaus,AM
+176,Ana Lima 176,Corporativo,Rio de Janeiro,RJ
+177,Olívia Pereira 177,Varejo,Brasília,DF
+178,Isabela Ribeiro 178,Varejo,São Paulo,SP
+179,Marina Ribeiro 179,Varejo,Rio de Janeiro,RJ
+180,Elisa Oliveira 180,Premium,São Paulo,SP
+181,Carla Santos 181,Varejo,Porto Alegre,RS
+182,Nicolas Santos 182,Premium,Manaus,AM
+183,Olívia Ribeiro 183,Varejo,Recife,PE
+184,João Silva 184,Premium,Recife,PE
+185,Gabriela Santos 185,Varejo,Rio de Janeiro,RJ
+186,Fábio Santos 186,Varejo,Rio de Janeiro,RJ
+187,Carla Oliveira 187,Varejo,Manaus,AM
+188,Olívia Ribeiro 188,Varejo,Recife,PE
+189,Hugo Lima 189,Varejo,São Paulo,SP
+190,Carla Santos 190,Varejo,Brasília,DF
+191,Nicolas Souza 191,Premium,Curitiba,PR
+192,Elisa Lima 192,Varejo,Curitiba,PR
+193,Bruno Oliveira 193,Varejo,Rio de Janeiro,RJ
+194,Olívia Souza 194,Corporativo,Porto Alegre,RS
+195,Marina Lima 195,Premium,Porto Alegre,RS
+196,Paulo Ribeiro 196,Varejo,Manaus,AM
+197,Nicolas Pereira 197,Premium,São Paulo,SP
+198,Ana Souza 198,Varejo,Porto Alegre,RS
+199,Isabela Silva 199,Varejo,São Paulo,SP
+200,Olívia Lima 200,Varejo,Brasília,DF

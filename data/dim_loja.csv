@@ -1,0 +1,7 @@
+id_loja,nome,regiao,canal
+1,Loja Paulista,Sudeste,Loja física
+2,Loja Carioca,Sudeste,Loja física
+3,Loja Sul,Sul,Loja física
+4,Loja Nordeste,Nordeste,Loja física
+5,Loja Capital,Centro-Oeste,Loja física
+6,E-commerce Brasil,Nacional,E-commerce
